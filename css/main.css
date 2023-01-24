@@ -261,11 +261,12 @@ nav > ul {
   gap: 0.6rem;
   justify-content: space-between;
   align-items: center;
+  transition: 250ms background-color linear;
 }
 
 .about-heading > .btn:hover {
   background-color: #495cc6;
-  transition: 1s background-color linear;
+  transition: 250ms background-color linear;
 }
 
 .about-details p {
