@@ -384,3 +384,37 @@ nav > ul {
   background-color: #495cc6;
   transition: 250ms background-color linear;
 }
+
+
+/* Projects Status */
+
+.projects-status{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  padding: 1rem;
+  flex-wrap: wrap;
+
+}
+
+.status-box{
+  background-color: var(--box-color);
+  width: 15rem;
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+
+.status-box p:first-child{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.status-box p:last-child{
+  color: var(--primary-color);
+  font-size: 0.9rem;
+}
