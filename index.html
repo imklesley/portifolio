@@ -107,7 +107,7 @@
 
     <!-- Services Section -->
     <section class="services container" id="services">
-      <div class="section-head">Services</div>
+      <h2 class="section-head">Services</h2>
 
       <div class="services-content">
         <div class="service-box">
@@ -203,7 +203,6 @@
       </div>
     </section>
 
-
     <!-- Reviews Section -->
     <section class="review-section container" id="review-sectioo">
       <h2 class="section-head">Reviews</h2>
@@ -278,6 +277,28 @@
       </div>
     </section>
 
+    <!-- Contact Section -->
+    <section class="contact-section container" id="contact">
+      <h2 class="section-head">Contact</h2>
+
+      <form class="contact-form" id="contact">
+        <input
+          type="text"
+          class="name"
+          placeholder="Insert your name..."
+          required
+        />
+        <input type="email" class="email" placeholder="Insert your email..." required/>
+        <textarea
+          class="message"
+          cols="30"
+          rows="10"
+          placeholder="Insert your message..." required
+        ></textarea>
+        <input type="submit" value="Send" class="send-btn" />
+      </form>
+    </section>
+
     <br />
     <br />
     <br />
@@ -290,9 +311,26 @@
     <!-- Third Parties JS -->
     <!-- SwiperJS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    
+    <!-- EmailJS -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+ 
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("egsPv0Z2zOpV9S0kj");
+      })();
+    </script>
+
+    <!-- SweetAlertJS -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js" defer></script>
+
 
     <!-- My JS Files -->
     <script type="text/javascript" src="js/menu-icon.js"></script>
     <script type="text/javascript" src="js/swiper.js"></script>
+    <script type="text/javascript" src="js/emailjs.js"></script>
   </body>
 </html>
