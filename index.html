@@ -6,8 +6,14 @@
     <title>Portifolio</title>
 
     <link rel="icon" href="assets/images/favicon.png" />
-
+    <!-- Link To My Main CSS File-->
     <link rel="stylesheet" href="css/main.css" />
+
+    <!-- Link CSS SwiperJS-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
 
     <!-- Linkagem com o BoxIcon -->
     <link
@@ -178,27 +184,99 @@
     <!-- Projects Status -->
     <section class="projects-status-section container" id="projects-review">
       <h2 class="section-head">Projects</h2>
-      
+
       <div class="projects-status">
-          <div class="status-box">
-            <p>130+</p>
-            <p>Django Websites</p>
-          </div>
+        <div class="status-box">
+          <p>130+</p>
+          <p>Django Websites</p>
+        </div>
 
-          <div class="status-box">
-            <p>89+</p>
-            <p>Flutter App's</p>
-          </div>
-          
-          <div class="status-box">
-            <p>300+</p>
-            <p>Happy Clients</p>
-          </div>
+        <div class="status-box">
+          <p>89+</p>
+          <p>Flutter App's</p>
+        </div>
+
+        <div class="status-box">
+          <p>300+</p>
+          <p>Happy Clients</p>
+        </div>
       </div>
-
     </section>
 
 
+    <!-- Reviews Section -->
+    <section class="review-section container" id="review-sectioo">
+      <h2 class="section-head">Reviews</h2>
+
+      <div class="reviews-content swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="review-box">
+              <i class="bx bxs-quote-right"></i>
+              <p class="review-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Dignissimos incidunt ipsam consectetur sed consequuntur nobis,
+                reiciendis distinctio exercitationem iure veritatis quaerat eum.
+                Eum nihil amet necessitatibus voluptates. Consequatur, iure
+                harum!
+              </p>
+              <div class="review-user">
+                <img
+                  src="assets/images/reviews_user/person1.jpeg"
+                  alt="The person that reviewed"
+                />
+              </div>
+              <h2 class="username">Julia Pereira</h2>
+              <span>From Brazil</span>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="review-box">
+              <i class="bx bxs-quote-right"></i>
+              <p class="review-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Dignissimos incidunt ipsam consectetur sed consequuntur nobis,
+                reiciendis distinctio exercitationem iure veritatis quaerat eum.
+                Eum nihil amet necessitatibus voluptates. Consequatur, iuretur
+                sed consequuntur nobis, reiciendis distinctio exercitationem
+                iure veritatis quaerat eum. Eum nihil amet necessitatibus
+                voluptates. Consequatur, iure harum!
+              </p>
+              <div class="review-user">
+                <img
+                  src="assets/images/reviews_user/person2.jpg"
+                  alt="The person that reviewed"
+                />
+              </div>
+              <h2 class="username">Monica Marques</h2>
+              <span>From Brazil</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review-box">
+              <i class="bx bxs-quote-right"></i>
+              <p class="review-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                impedit culpa facilis, laborum sed, praesentium nihil animi,
+                rerum voluptatum odit aliquam iure! Cumque aliquid voluptatem,
+                eligendi, expedita fugit fuga dicta sequi voluptates officiis
+                exercitationem vitae!
+              </p>
+              <div class="review-user">
+                <img
+                  src="assets/images/reviews_user/person3.jpeg"
+                  alt="The person that reviewed"
+                />
+              </div>
+              <h2 class="username">Jorge Silva</h2>
+              <span>From Brazil</span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
 
     <br />
     <br />
@@ -208,7 +286,13 @@
     <br />
     <br />
     <br />
-    <!-- JS Files -->
+
+    <!-- Third Parties JS -->
+    <!-- SwiperJS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- My JS Files -->
     <script type="text/javascript" src="js/menu-icon.js"></script>
+    <script type="text/javascript" src="js/swiper.js"></script>
   </body>
 </html>
