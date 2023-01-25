@@ -59,6 +59,12 @@ header {
   z-index: 100;
 }
 
+.active-header{
+  /* Sempre lembrar que o background tem que possui */
+  background-color: rgba(var(--container-color), 0.5);
+  backdrop-filter: blur(15px);
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -517,3 +523,34 @@ nav > ul {
 }
 
 
+/* Footer */
+#footer{
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:1rem
+}
+
+#footer .footer-links{
+  display: flex;
+  gap: 1rem;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+#footer .footer-links a{
+  color: var(--text-color);
+  transition: 300ms color linear;
+}
+
+#footer .footer-links a:hover{
+  color: var(--primary-color);
+  transition: 300ms color linear;
+}
+
+.copyright{
+  font-weight: bold;
+  font-size: 1rem;
+}
