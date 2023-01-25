@@ -57,12 +57,14 @@ header {
   left: 0;
   width: 100%;
   z-index: 100;
+  transition: 300ms all linear;
 }
 
 .active-header{
   /* Sempre lembrar que o background tem que possui */
   background-color: rgba(var(--container-color), 0.5);
   backdrop-filter: blur(15px);
+  transition: 300ms all linear;
 }
 
 nav {
@@ -147,6 +149,8 @@ nav > ul {
   object-fit: cover;
   background-color: var(--primary-color);
   overflow: hidden;
+
+  border: 5px solid var(--container-color);
 
   /*Centraliza a imagem ao centro do circulo*/
   display: flex;
@@ -553,4 +557,34 @@ nav > ul {
 .copyright{
   font-weight: bold;
   font-size: 1rem;
+}
+
+/* Scroll to top button */
+.scroll-to-top{
+  position: fixed;
+  bottom: 2rem;
+  right: -4rem;
+  color: var(--text-color);
+  font-size:1.5rem;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  /* Display flex when scroll down */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--box-color);
+  opacity: 0;
+  transition: 300ms opacity linear, 300ms background-color linear;
+}
+
+.scroll-to-top:hover{
+  background-color: var(--container-color);
+  transition: 300ms opacity linear, 300ms background-color linear;
+
+}
+.active-scroll-to-top{
+  opacity: 1;
+  right: 4rem;
+
+  transition: 300ms opacity linear;
 }
