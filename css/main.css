@@ -356,7 +356,7 @@ nav > ul {
 /* Portifolio Section */
 .portifolio-projects {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 380px));
+  grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   gap: 2rem;
 }
@@ -676,6 +676,11 @@ nav > ul {
 }
 
 @media (max-width: 600px) {
+  
+  .portifolio-projects {
+    gap: .5rem;
+    
+  }
   .active-scroll-to-top {
     right: 0.6rem;
   }
@@ -724,7 +729,11 @@ nav > ul {
 }
 
 @media(max-width:400px) {
-
+  .portifolio-projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+  }
   .reviews-content {
     height: 430px;
   }
