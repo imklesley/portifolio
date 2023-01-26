@@ -1,0 +1,10 @@
+/* Light Mode */
+:root {
+    /*Representa o próprio arquivo, logo todas as variáveis serão aplicadas globalmnente, se fosse dentro de um elemento específico só funcionaria lá*/
+    --primary-color: #F4C91Fff;
+    --secondary-color: #128EC6;
+    --container-color: #105da5;
+    --heading-color: #00064db2;
+    --box-color: #0f6790;
+    --text-color: #fff;
+  }

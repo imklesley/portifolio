@@ -20,12 +20,16 @@
       href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
       rel="stylesheet"
     />
+
+
+    <link id="theme" rel="stylesheet" href="css/light_mode.css">
+
   </head>
   <body>
     <a href="#home" class="scroll-to-top">
       <i class="bx bx-up-arrow-alt"></i>
     </a>
-    
+
     <!-- Espaço vazio para detectar toque fora do drawer e então fechar -->
     <div class="empty-space-on-open-drawer"></div>
     <header>
@@ -42,6 +46,19 @@
           <li><a href="#services" class="nav-link">Services</a></li>
           <li><a href="#portifolio" class="nav-link">Portifolio</a></li>
           <li><a href="#contact" class="nav-link">Contact</a></li>
+          <input id="mode-toggle" type="checkbox" />
+          <label for="mode-toggle">
+            <img
+              id="sun-icon"
+              src="assets/sun-icon.svg"
+              alt="Icon do light mode"
+            />
+            <img
+              id="moon-icon"
+              src="assets/moon-icon.svg"
+              alt="Icon do Z mode"
+            />
+          </label>
         </ul>
 
         <!-- Menu Icon-->
@@ -215,8 +232,6 @@
 
       <div class="reviews-content swiper">
         <div class="swiper-wrapper">
-         
-
           <div class="swiper-slide">
             <div class="review-box">
               <i class="bx bxs-quote-right"></i>
@@ -239,7 +254,7 @@
               <span>From Brazil</span>
             </div>
           </div>
-           <div class="swiper-slide">
+          <div class="swiper-slide">
             <div class="review-box">
               <i class="bx bxs-quote-right"></i>
               <p class="review-text">
