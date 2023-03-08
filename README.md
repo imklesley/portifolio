@@ -6,12 +6,12 @@ Portifolio is a responsive website created for showcasing professional work and 
 ## Project Images
 <div align="center">
     <span>
-        <img src="./github/assets/mobile_light_opened_side_menu.png" height=400 />
-        <img src="./github/assets/mobile_dark_opened_side_menu.png" height=400 />
+        <img src="./github/assets/mobile_light_opened_side_menu.png" height=500 />
+        <img src="./github/assets/mobile_dark_opened_side_menu.png" height=500 />
     </span> 
     <span>
-        <img src="./github/assets/resumed_desktop__light_version.png" height=400  />
-        <img src="./github/assets/resumed_desktop__dark_version.png" height=400  />
+        <img src="./github/assets/resumed_desktop__light_version.png" height=500  />
+        <img src="./github/assets/resumed_desktop__dark_version.png" height=500  />
     </span>
     
 </div>
@@ -21,7 +21,7 @@ Portifolio is a responsive website created for showcasing professional work and 
 * Multi-theme - light and dark modes available
 * Responsive design
 * Home, about, services, reviews, portifolio and contact sections
-* Glassmorphism effect for mobile and tablet versions
+* Glassmorphism effect on drawer menu and web menu
 * SwiperJS library for the reviews section
 * EmailJS library for contact form
 * SweetAlertJS library for alerts
@@ -32,7 +32,7 @@ Portifolio is a responsive website created for showcasing professional work and 
 2. Install the necessary dependencies
 3. Run the project
 
-## Dependencies
+## Dependencies - Using CDN
 
 * [SwiperJS](https://swiperjs.com/) - Used in the review section
 * [EmailJS](https://www.emailjs.com/) - Used to send an email when the contact form is filled
