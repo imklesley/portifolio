@@ -28,18 +28,17 @@ More Images on the folder /github/assets/
 * EmailJS library for contact form
 * SweetAlertJS library for alerts
 
-## Usage
-
-1. Clone the repository
-2. Install the necessary dependencies
-3. Run the project
-
 ## Dependencies - Using CDN
 
 * [SwiperJS](https://swiperjs.com/) - Used in the review section
 * [EmailJS](https://www.emailjs.com/) - Used to send an email when the contact form is filled
 * [SweetAlertJS](https://sweetalert.js.org/) - Used to show alerts if the email was sent or if there is something wrong with the contact form
 
+
+## Usage
+
+1. Clone the repository
+2. Run the project opening the index.html
 
 ##
 
