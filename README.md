@@ -6,13 +6,13 @@ Portifolio is a responsive website created for showcasing professional work and 
 ## Project Images
 <div align="center">
     <span>
-        <img src="./github/assets/mobile_light_opened_side_menu.png" height=500 />
-        <img src="./github/assets/mobile_dark_opened_side_menu.png" height=500 />
-    </span> 
-    <span>
         <img src="./github/assets/resumed_desktop__light_version.png" height=500  />
         <img src="./github/assets/resumed_desktop__dark_version.png" height=500  />
     </span>
+    <span>
+        <img src="./github/assets/mobile_light_opened_side_menu.png" height=500 />
+        <img src="./github/assets/mobile_dark_opened_side_menu.png" height=500 />
+    </span> 
     
 </div>
 
